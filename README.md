@@ -48,6 +48,12 @@ npm run build
 npm run preview
 ```
 
+### Deployment
+
+```powershell
+npm run deploy
+```
+
 ## How to Use
 
 1. **Upload a PDF**: Click the upload area or drag & drop a PDF file
@@ -75,11 +81,13 @@ clean-react/
 ## PDF Rearrangement Logic
 
 ### 6-Page Mode
+
 - Groups: 12 pages per group
 - Order: `[1, 3, 5, 7, 9, 11, 6, 4, 2, 12, 10, 8]`
 - Output: `filename_rearranged6.pdf`
 
 ### 9-Page Mode
+
 - Groups: 18 pages per group
 - Order: `[0, 2, 4, 6, 8, 10, 12, 14, 16, 5, 3, 1, 11, 9, 7, 17, 15, 13]`
 - Output: `filename_rearranged9.pdf`
