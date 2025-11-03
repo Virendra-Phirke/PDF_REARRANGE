@@ -30,7 +30,7 @@ A modern React application built with Vite + TypeScript for arranging PDF pages 
 ### Installation
 
 ```powershell
-cd "Z:\0 DATA\z  SEM 7  PJ\clean-react"
+cd "Location of directory"
 npm install
 ```
 
@@ -129,6 +129,3 @@ clean-react/
 - Works offline after initial load
 - Dark theme with modern UI
 
-## License
-
-MIT
